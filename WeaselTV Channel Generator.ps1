@@ -1,5 +1,5 @@
 # WEASEL TV channel generator
-# 
+#  
 # Required: https://dev.mysql.com/downloads/connector/net/
 
 Clear-Host #start with a blank console
