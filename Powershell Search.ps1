@@ -2,6 +2,8 @@
 Using this file for useful PS snippets
 
 To do:
+Check PS remoting! https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/disable-psremoting?view=powershell-5.1
+
 Check PS logging
 Make recommendations
 Check reg for mshta, ps entries
