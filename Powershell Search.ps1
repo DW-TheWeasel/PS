@@ -8,6 +8,8 @@ Check if winRM service is running. Big security risk.  If it is, what are the pe
 
 Look for large CPU utilization over time.  Currently measuring cpu time in seconds.
 
+Possible to looks in wmi repo programatically for powershell scripts?
+
 Check PS logging
 Make recommendations
 Check reg for mshta, ps entries
