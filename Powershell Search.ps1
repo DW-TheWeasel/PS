@@ -57,8 +57,11 @@ else {
 
 
 
-# Find all powershell processes and show command line used to launch
+
 # foreach ($process in (Get-CimInstance Win32_Process -Filter "name = 'powershell.exe'")) {Write-Host ($process.Name + " (PID:" + $process.ProcessId + ")" + " - Creation date: " + $process.CreationDate) -ForegroundColor Black -BackgroundColor White; $process | Select-Object CommandLine | Format-Table -autosize -wrap}
+
+
+# Finds all powershell processes and lists PID - Creation date - Total processor time - Command line called at launch
 $processes = (Get-CimInstance Win32_Process -Filter "name = 'powershell.exe'")
 
 if (($processes | Measure-Object).Count -eq 1 -And $processes[0].ProcessId -eq $PID) {
