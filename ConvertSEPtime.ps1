@@ -1,0 +1,2 @@
+# SEP uses NT Time Epoch in (10^-7)s intervals from 0h 1-Jan 1601.  SEP stores this time in hex so step one is to convert to int64
+(Get-Date 1/1/1601).AddDays([convert]::toint64("01d377bdc50e7e87",16)/864000000000)

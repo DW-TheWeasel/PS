@@ -81,3 +81,4 @@ foreach ($process in $processes) {
     # Dump full CommandLine used on initial Powershell.exe call
     $process | Select-Object CommandLine | Format-Table -autosize -wrap
 }
+
